@@ -1,0 +1,28 @@
+
+.container {
+  max-width: 960px;
+}
+
+.carousel-caption{
+  color:#000;
+  font-family: sans-serif;
+}
+
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
